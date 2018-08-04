@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="lib">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/lib/zmanim-1.4.0alpha.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/zmanimAstronomical-1.4.0alpha.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

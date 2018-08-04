@@ -15,6 +15,7 @@
  */
 package net.sourceforge.zmanim;
 
+import java.time.LocalDateTime;
 import java.util.Date;
 
 import net.sourceforge.zmanim.util.AstronomicalCalculator;
@@ -146,7 +147,7 @@ public class ZmanimCalendar extends AstronomicalCalendar {
 	 * @see net.sourceforge.zmanim.AstronomicalCalendar#getSunrise()
 	 */
 	@Override
-	public Date getSunrise() {
+	public LocalDateTime getSunrise() {
 		if(isUseElevation()) {
 			return super.getSunrise();
 		}
@@ -164,7 +165,7 @@ public class ZmanimCalendar extends AstronomicalCalendar {
 	 * @see net.sourceforge.zmanim.AstronomicalCalendar#getSunset()
 	 */
 	@Override
-	public Date getSunset() {
+	public LocalDateTime getSunset() {
 		if(isUseElevation()) {
 			return super.getSunset();
 		}
@@ -186,7 +187,7 @@ public class ZmanimCalendar extends AstronomicalCalendar {
 	 * @see #ZENITH_8_POINT_5
 	 * ComplexZmanimCalendar#getTzaisGeonim8Point5Degrees() that returns an identical time to this generic <em>tzais</em>
 	 */
-	public Date getTzais() {
+	public LocalDateTime getTzais() {
 		return getSunsetOffsetByDegrees(ZENITH_8_POINT_5);
 	}
 
@@ -206,7 +207,7 @@ public class ZmanimCalendar extends AstronomicalCalendar {
 	 *         low enough below the horizon for this calculation, a null will be returned. See detailed explanation on
 	 *         top of the {@link AstronomicalCalendar} documentation.
 	 */
-	public Date getAlosHashachar() {
+	public LocalDateTime getAlosHashachar() {
 		return getSunriseOffsetByDegrees(ZENITH_16_POINT_1);
 	}
 
@@ -223,7 +224,7 @@ public class ZmanimCalendar extends AstronomicalCalendar {
 	 *         a null will be returned. See detailed explanation on top of the {@link AstronomicalCalendar}
 	 *         documentation.
 	 */
-	public Date getAlos72() {
+	public LocalDateTime getAlos72() {
 		return getTimeOffset(getSunrise(), -72 * MINUTE_MILLIS);
 	}
 
@@ -239,7 +240,7 @@ public class ZmanimCalendar extends AstronomicalCalendar {
 	 *         where there is at least one day where the sun does not rise, and one where it does not set, a null will
 	 *         be returned. See detailed explanation on top of the {@link AstronomicalCalendar} documentation.
 	 */
-	public Date getChatzos() {
+	public LocalDateTime getChatzos() {
 		return getSunTransit();
 	}
 
@@ -265,7 +266,7 @@ public class ZmanimCalendar extends AstronomicalCalendar {
 	 *         a year where the sun does not rise, and one where it does not set, a null will be returned. See detailed
 	 *         explanation on top of the {@link AstronomicalCalendar} documentation.
 	 */
-	public Date getSofZmanShma(Date startOfDay, Date endOfDay) {
+	public LocalDateTime getSofZmanShma(LocalDateTime startOfDay, LocalDateTime endOfDay) {
 		long shaahZmanis = getTemporalHour(startOfDay, endOfDay);
 		return getTimeOffset(startOfDay, shaahZmanis * 3);
 	}
@@ -288,7 +289,7 @@ public class ZmanimCalendar extends AstronomicalCalendar {
 	 * does not set, a null will be returned. See the detailed explanation on top of the {@link AstronomicalCalendar}
 	 * documentation.
 	 */
-	public Date getSofZmanShmaGRA() {
+	public LocalDateTime getSofZmanShmaGRA() {
 		return getSofZmanShma(getSunrise(), getSunset());
 	}
 
@@ -309,7 +310,7 @@ public class ZmanimCalendar extends AstronomicalCalendar {
 	 * @see ComplexZmanimCalendar#getAlos72()
 	 * @see ComplexZmanimCalendar#getSofZmanShmaMGA72Minutes() that 
 	 */
-	public Date getSofZmanShmaMGA() {
+	public LocalDateTime getSofZmanShmaMGA() {
 		return getSofZmanShma(getAlos72(), getTzais72());
 	}
 
@@ -326,7 +327,7 @@ public class ZmanimCalendar extends AstronomicalCalendar {
 	 *         and one where it does not set, a null will be returned See detailed explanation on top of the
 	 *         {@link AstronomicalCalendar} documentation.
 	 */
-	public Date getTzais72() {
+	public LocalDateTime getTzais72() {
 		return getTimeOffset(getSunset(), 72 * MINUTE_MILLIS);
 	}
 
@@ -345,7 +346,7 @@ public class ZmanimCalendar extends AstronomicalCalendar {
 	 * @see #getCandleLightingOffset()
 	 * @see #setCandleLightingOffset(double)
 	 */
-	public Date getCandleLighting() {
+	public LocalDateTime getCandleLighting() {
 		return getTimeOffset(getSeaLevelSunset(), -getCandleLightingOffset() * MINUTE_MILLIS);
 	}
 
@@ -371,7 +372,7 @@ public class ZmanimCalendar extends AstronomicalCalendar {
 	 *         one day a year where the sun does not rise, and one where it does not set, a null will be returned. See
 	 *         detailed explanation on top of the {@link AstronomicalCalendar} documentation.
 	 */
-	public Date getSofZmanTfila(Date startOfDay, Date endOfDay) {
+	public LocalDateTime getSofZmanTfila(LocalDateTime startOfDay, LocalDateTime endOfDay) {
 		long shaahZmanis = getTemporalHour(startOfDay, endOfDay);
 		return getTimeOffset(startOfDay, shaahZmanis * 4);
 	}
@@ -393,7 +394,7 @@ public class ZmanimCalendar extends AstronomicalCalendar {
 	 *         not set, a null will be returned. See detailed explanation on top of the {@link AstronomicalCalendar}
 	 *         documentation.
 	 */
-	public Date getSofZmanTfilaGRA() {
+	public LocalDateTime getSofZmanTfilaGRA() {
 		return getSofZmanTfila(getSunrise(), getSunset());
 	}
 
@@ -413,7 +414,7 @@ public class ZmanimCalendar extends AstronomicalCalendar {
 	 * @see #getShaahZmanisMGA()
 	 * @see #getAlos72()
 	 */
-	public Date getSofZmanTfilaMGA() {
+	public LocalDateTime getSofZmanTfilaMGA() {
 		return getSofZmanTfila(getAlos72(), getTzais72());
 	}
 
@@ -439,7 +440,7 @@ public class ZmanimCalendar extends AstronomicalCalendar {
 	 *         at least one day a year where the sun does not rise, and one where it does not set, a null will be
 	 *         returned. See detailed explanation on top of the {@link AstronomicalCalendar} documentation.
 	 */
-	public Date getMinchaGedola(Date startOfDay, Date endOfDay) {
+	public LocalDateTime getMinchaGedola(LocalDateTime startOfDay, LocalDateTime endOfDay) {
 		long shaahZmanis = getTemporalHour(startOfDay, endOfDay);
 		return getTimeOffset(startOfDay, shaahZmanis * 6.5);
 	}
@@ -465,7 +466,7 @@ public class ZmanimCalendar extends AstronomicalCalendar {
 	 *         not set, a null will be returned. See detailed explanation on top of the {@link AstronomicalCalendar}
 	 *         documentation.
 	 */
-	public Date getMinchaGedola() {
+	public LocalDateTime getMinchaGedola() {
 		return getMinchaGedola(getSunrise(), getSunset());
 	}
 
@@ -493,7 +494,7 @@ public class ZmanimCalendar extends AstronomicalCalendar {
 	 *         returned. See detailed explanation on top of the {@link AstronomicalCalendar} documentation.
 	 *
 	 */
-	public Date getMinchaKetana(Date startOfDay, Date endOfDay) {
+	public LocalDateTime getMinchaKetana(LocalDateTime startOfDay, LocalDateTime endOfDay) {
 		long shaahZmanis = getTemporalHour(startOfDay, endOfDay);
 		return getTimeOffset(startOfDay, shaahZmanis * 9.5);
 	}
@@ -518,7 +519,7 @@ public class ZmanimCalendar extends AstronomicalCalendar {
 	 *         not set, a null will be returned. See detailed explanation on top of the {@link AstronomicalCalendar}
 	 *         documentation.
 	 */
-	public Date getMinchaKetana() {
+	public LocalDateTime getMinchaKetana() {
 		return getMinchaKetana(getSunrise(), getSunset());
 	}
 
@@ -542,7 +543,7 @@ public class ZmanimCalendar extends AstronomicalCalendar {
 	 *         at least one day a year where the sun does not rise, and one where it does not set, a null will be
 	 *         returned. See detailed explanation on top of the {@link AstronomicalCalendar} documentation.
 	 */
-	public Date getPlagHamincha(Date startOfDay, Date endOfDay) {
+	public LocalDateTime getPlagHamincha(LocalDateTime startOfDay, LocalDateTime endOfDay) {
 		long shaahZmanis = getTemporalHour(startOfDay, endOfDay);
 		return getTimeOffset(startOfDay, shaahZmanis * 10.75);
 	}
@@ -562,7 +563,7 @@ public class ZmanimCalendar extends AstronomicalCalendar {
 	 *         does not set, a null will be returned. See detailed explanation on top of the
 	 *         {@link AstronomicalCalendar} documentation.
 	 */
-	public Date getPlagHamincha() {
+	public LocalDateTime getPlagHamincha() {
 		return getPlagHamincha(getSunrise(), getSunset());
 	}
 

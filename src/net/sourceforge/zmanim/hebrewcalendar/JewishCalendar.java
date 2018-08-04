@@ -18,9 +18,12 @@ package net.sourceforge.zmanim.hebrewcalendar;
 
 import net.sourceforge.zmanim.util.GeoLocation;
 
+import java.time.LocalDateTime;
 import java.util.Calendar;
 import java.util.Date;
 import java.util.TimeZone;
+import static net.sourceforge.zmanim.util.DateConverter.dateToLocalDateTime;
+import static net.sourceforge.zmanim.util.DateConverter.localDateTimeToDate;
 
 /**
  * The JewishCalendar extends the JewishDate class and adds calendar methods.
@@ -532,7 +535,7 @@ public class JewishCalendar extends JewishDate {
 	 * 
 	 * @return the Date representing the moment of the molad in Yerushalayim standard time (GMT + 2)
 	 */
-	public Date getMoladAsDate() {
+	public LocalDateTime getMoladAsDate() {
 		JewishDate molad = getMolad();
 		String locationName = "Jerusalem, Israel";
 
@@ -551,7 +554,7 @@ public class JewishCalendar extends JewishDate {
 		cal.set(Calendar.MILLISECOND, (int) (1000 * (moladSeconds - (int) moladSeconds)));
 		// subtract local time difference of 20.94 minutes (20 minutes and 56.496 seconds) to get to Standard time
 		cal.add(Calendar.MILLISECOND, -1 * (int) geo.getLocalMeanTimeOffset());
-		return cal.getTime();
+		return dateToLocalDateTime(cal.getTime());
 	}
 
 	/**
@@ -564,12 +567,12 @@ public class JewishCalendar extends JewishDate {
 	 * @see net.sourceforge.zmanim.ComplexZmanimCalendar#getTchilasZmanKidushLevana3Days()
 	 * @see net.sourceforge.zmanim.ComplexZmanimCalendar#getTchilasZmanKidushLevana3Days(Date, Date)
 	 */
-	public Date getTchilasZmanKidushLevana3Days() {
-		Date molad = getMoladAsDate();
+	public LocalDateTime getTchilasZmanKidushLevana3Days() {
+		LocalDateTime molad = getMoladAsDate();
 		Calendar cal = Calendar.getInstance();
-		cal.setTime(molad);
+		cal.setTime(localDateTimeToDate(molad));
 		cal.add(Calendar.HOUR, 72); // 3 days after the molad
-		return cal.getTime();
+		return dateToLocalDateTime(cal.getTime());
 	}
 
 	/**
@@ -584,12 +587,12 @@ public class JewishCalendar extends JewishDate {
 	 * @see net.sourceforge.zmanim.ComplexZmanimCalendar#getTchilasZmanKidushLevana7Days()
 	 * @see net.sourceforge.zmanim.ComplexZmanimCalendar#getTchilasZmanKidushLevana7Days(Date, Date)
 	 */
-	public Date getTchilasZmanKidushLevana7Days() {
-		Date molad = getMoladAsDate();
+	public LocalDateTime getTchilasZmanKidushLevana7Days() {
+		LocalDateTime molad = getMoladAsDate();
 		Calendar cal = Calendar.getInstance();
-		cal.setTime(molad);
+		cal.setTime(localDateTimeToDate(molad));
 		cal.add(Calendar.HOUR, 168); // 7 days after the molad
-		return cal.getTime();
+		return dateToLocalDateTime(cal.getTime());
 	}
 
 	/**
@@ -605,10 +608,10 @@ public class JewishCalendar extends JewishDate {
 	 * @see net.sourceforge.zmanim.ComplexZmanimCalendar#getSofZmanKidushLevanaBetweenMoldos()
 	 * @see net.sourceforge.zmanim.ComplexZmanimCalendar#getSofZmanKidushLevanaBetweenMoldos(Date, Date)
 	 */
-	public Date getSofZmanKidushLevanaBetweenMoldos() {
-		Date molad = getMoladAsDate();
+	public LocalDateTime getSofZmanKidushLevanaBetweenMoldos() {
+		LocalDateTime molad = getMoladAsDate();
 		Calendar cal = Calendar.getInstance();
-		cal.setTime(molad);
+		cal.setTime(localDateTimeToDate(molad));
 		// add half the time between molad and molad (half of 29 days, 12 hours and 793 chalakim (44 minutes, 3.3
 		// seconds), or 14 days, 18 hours, 22 minutes and 666 milliseconds)
 		cal.add(Calendar.DAY_OF_MONTH, 14);
@@ -616,7 +619,7 @@ public class JewishCalendar extends JewishDate {
 		cal.add(Calendar.MINUTE, 22);
 		cal.add(Calendar.SECOND, 1);
 		cal.add(Calendar.MILLISECOND, 666);
-		return cal.getTime();
+		return dateToLocalDateTime(cal.getTime());
 	}
 
 	/**
@@ -636,12 +639,12 @@ public class JewishCalendar extends JewishDate {
 	 * @see net.sourceforge.zmanim.ComplexZmanimCalendar#getSofZmanKidushLevana15Days()
 	 * @see net.sourceforge.zmanim.ComplexZmanimCalendar#getSofZmanKidushLevana15Days(Date, Date)
 	 */
-	public Date getSofZmanKidushLevana15Days() {
-		Date molad = getMoladAsDate();
+	public LocalDateTime getSofZmanKidushLevana15Days() {
+		LocalDateTime molad = getMoladAsDate();
 		Calendar cal = Calendar.getInstance();
-		cal.setTime(molad);
+		cal.setTime(localDateTimeToDate(molad));
 		cal.add(Calendar.DAY_OF_YEAR, 15); // 15 days after the molad
-		return cal.getTime();
+		return dateToLocalDateTime(cal.getTime());
 	}
 
 	/**
