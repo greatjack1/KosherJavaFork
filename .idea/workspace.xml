@@ -6,22 +6,9 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="635c84cd-93c1-40ad-b5d7-10f80eabe87a" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/artifacts/zmanim_jar.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/net/sourceforge/zmanim/util/DateConverter.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/net/sourceforge/zmanim/hebrewcalendar/UT_DaysInGregorianMonth.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/net/sourceforge/zmanim/hebrewcalendar/UT_DaysInJewishMonth.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/net/sourceforge/zmanim/hebrewcalendar/UT_GregorianDateNavigation.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/net/sourceforge/zmanim/hebrewcalendar/UT_JewishDateNavigation.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/net/sourceforge/zmanim/hebrewcalendar/UT_JewishLeapYear.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/net/sourceforge/zmanim/hebrewcalendar/UT_YerushalmiTest.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/net/sourceforge/zmanim/hebrewcalendar/YomiCalculatorTest.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/net/sourceforge/zmanim/hebrewcalendar/package.html" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
+    <list default="true" id="635c84cd-93c1-40ad-b5d7-10f80eabe87a" name="Default" comment="Update Date conversion methods">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/net/sourceforge/zmanim/AstronomicalCalendar.java" afterPath="$PROJECT_DIR$/src/net/sourceforge/zmanim/AstronomicalCalendar.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/net/sourceforge/zmanim/ComplexZmanimCalendar.java" afterPath="$PROJECT_DIR$/src/net/sourceforge/zmanim/ComplexZmanimCalendar.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/net/sourceforge/zmanim/ZmanimCalendar.java" afterPath="$PROJECT_DIR$/src/net/sourceforge/zmanim/ZmanimCalendar.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/net/sourceforge/zmanim/hebrewcalendar/JewishCalendar.java" afterPath="$PROJECT_DIR$/src/net/sourceforge/zmanim/hebrewcalendar/JewishCalendar.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -36,14 +23,10 @@
       <file leaf-file-name="AstronomicalCalendar.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/net/sourceforge/zmanim/AstronomicalCalendar.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="509">
-              <caret line="561" column="69" lean-forward="false" selection-start-line="561" selection-start-column="69" selection-end-line="561" selection-end-column="69" />
+            <state relative-caret-position="-1242">
+              <caret line="602" column="123" lean-forward="false" selection-start-line="602" selection-start-column="123" selection-end-line="602" selection-end-column="123" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#19802#19803#0" expanded="true" />
-                <element signature="e#19841#19842#0" expanded="true" />
-                <element signature="e#25037#25038#0" expanded="true" />
-                <element signature="e#25118#25119#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -52,7 +35,7 @@
       <file leaf-file-name="DateConverter.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/net/sourceforge/zmanim/util/DateConverter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
+            <state relative-caret-position="255">
               <caret line="19" column="80" lean-forward="false" selection-start-line="19" selection-start-column="80" selection-end-line="19" selection-end-column="80" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -64,7 +47,7 @@
       <file leaf-file-name="ZmanimCalendar.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/net/sourceforge/zmanim/ZmanimCalendar.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
+            <state relative-caret-position="4425">
               <caret line="329" column="25" lean-forward="false" selection-start-line="329" selection-start-column="25" selection-end-line="329" selection-end-column="25" />
               <folding>
                 <element signature="e#18020#18021#0" expanded="true" />
@@ -87,7 +70,7 @@
       <file leaf-file-name="JewishCalendar.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/net/sourceforge/zmanim/hebrewcalendar/JewishCalendar.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1151">
+            <state relative-caret-position="9090">
               <caret line="646" column="49" lean-forward="false" selection-start-line="646" selection-start-column="49" selection-end-line="646" selection-end-column="49" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -100,7 +83,7 @@
         <entry file="file://$PROJECT_DIR$/src/net/sourceforge/zmanim/ComplexZmanimCalendar.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="135">
-              <caret line="23" column="3" lean-forward="true" selection-start-line="23" selection-start-column="0" selection-end-line="24" selection-end-column="76" />
+              <caret line="23" column="3" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="24" selection-end-column="76" />
               <folding>
                 <element signature="e#22132#22133#0" expanded="true" />
                 <element signature="e#22154#22155#0" expanded="true" />
@@ -292,8 +275,6 @@
                 <element signature="e#204124#204125#0" expanded="true" />
                 <element signature="e#207315#207316#0" expanded="true" />
                 <element signature="e#207357#207358#0" expanded="true" />
-                <marker date="1533419220579" expanded="false" signature="214548:214553" ph=" { " />
-                <marker date="1533419220579" expanded="false" signature="214608:214611" ph=" }" />
               </folding>
             </state>
           </provider>
@@ -335,10 +316,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" fullScreen="true">
-    <option name="x" value="33" />
-    <option name="y" value="23" />
-    <option name="width" value="1228" />
-    <option name="height" value="729" />
+    <option name="width" value="1280" />
+    <option name="height" value="800" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -355,9 +334,10 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
       <pane id="Scope" />
       <pane id="Scratches" />
-      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -440,7 +420,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -557,7 +536,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -572,7 +550,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22374798" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.226979" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -590,6 +568,10 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Update Date conversion methods" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update Date conversion methods" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
@@ -601,31 +583,6 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#19802#19803#0" expanded="true" />
-            <element signature="e#19841#19842#0" expanded="true" />
-            <element signature="e#25037#25038#0" expanded="true" />
-            <element signature="e#25118#25119#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/net/sourceforge/zmanim/ZmanimCalendar.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4005">
-          <caret line="267" column="7" lean-forward="false" selection-start-line="267" selection-start-column="7" selection-end-line="267" selection-end-column="7" />
-          <folding>
-            <element signature="e#18020#18021#0" expanded="true" />
-            <element signature="e#18075#18076#0" expanded="true" />
-            <element signature="e#19350#19351#0" expanded="true" />
-            <element signature="e#19405#19406#0" expanded="true" />
-            <element signature="e#20384#20385#0" expanded="true" />
-            <element signature="e#20444#20445#0" expanded="true" />
-            <element signature="e#24660#24661#0" expanded="true" />
-            <element signature="e#24716#24717#0" expanded="true" />
-            <element signature="e#25865#25866#0" expanded="true" />
-            <element signature="e#25921#25922#0" expanded="true" />
-            <element signature="e#29479#29480#0" expanded="true" />
-            <element signature="e#29535#29536#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -636,45 +593,13 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#19802#19803#0" expanded="true" />
-            <element signature="e#19841#19842#0" expanded="true" />
-            <element signature="e#25037#25038#0" expanded="true" />
-            <element signature="e#25118#25119#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/net/sourceforge/zmanim/ZmanimCalendar.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3990">
-          <caret line="266" column="7" lean-forward="true" selection-start-line="266" selection-start-column="7" selection-end-line="266" selection-end-column="7" />
-          <folding>
-            <element signature="e#18020#18021#0" expanded="true" />
-            <element signature="e#18075#18076#0" expanded="true" />
-            <element signature="e#19350#19351#0" expanded="true" />
-            <element signature="e#19405#19406#0" expanded="true" />
-            <element signature="e#20384#20385#0" expanded="true" />
-            <element signature="e#20444#20445#0" expanded="true" />
-            <element signature="e#24660#24661#0" expanded="true" />
-            <element signature="e#24716#24717#0" expanded="true" />
-            <element signature="e#25865#25866#0" expanded="true" />
-            <element signature="e#25921#25922#0" expanded="true" />
-            <element signature="e#29479#29480#0" expanded="true" />
-            <element signature="e#29535#29536#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/src.zip!/java/time/LocalDateTime.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="134" column="19" lean-forward="false" selection-start-line="134" selection-start-column="19" selection-end-line="134" selection-end-column="19" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/net/sourceforge/zmanim/util/DateConverter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
+        <state relative-caret-position="255">
           <caret line="19" column="80" lean-forward="false" selection-start-line="19" selection-start-column="80" selection-end-line="19" selection-end-column="80" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -684,7 +609,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/net/sourceforge/zmanim/hebrewcalendar/JewishCalendar.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1151">
+        <state relative-caret-position="9090">
           <caret line="646" column="49" lean-forward="false" selection-start-line="646" selection-start-column="49" selection-end-line="646" selection-end-column="49" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -692,41 +617,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/net/sourceforge/zmanim/hebrewcalendar/UT_YerushalmiTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" column="6" lean-forward="false" selection-start-line="23" selection-start-column="6" selection-end-line="23" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/net/sourceforge/zmanim/hebrewcalendar/UT_JewishLeapYear.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="12" column="13" lean-forward="false" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/net/sourceforge/zmanim/hebrewcalendar/UT_JewishDateNavigation.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="14" column="13" lean-forward="false" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/net/sourceforge/zmanim/hebrewcalendar/UT_GregorianDateNavigation.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="14" column="13" lean-forward="false" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/net/sourceforge/zmanim/ZmanimCalendar.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
+        <state relative-caret-position="4425">
           <caret line="329" column="25" lean-forward="false" selection-start-line="329" selection-start-column="25" selection-end-line="329" selection-end-column="25" />
           <folding>
             <element signature="e#18020#18021#0" expanded="true" />
@@ -747,8 +640,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/net/sourceforge/zmanim/ComplexZmanimCalendar.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="23" column="3" lean-forward="true" selection-start-line="23" selection-start-column="0" selection-end-line="24" selection-end-column="76" />
+        <state relative-caret-position="345">
+          <caret line="23" column="3" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="24" selection-end-column="76" />
           <folding>
             <element signature="e#22132#22133#0" expanded="true" />
             <element signature="e#22154#22155#0" expanded="true" />
@@ -940,22 +833,579 @@
             <element signature="e#204124#204125#0" expanded="true" />
             <element signature="e#207315#207316#0" expanded="true" />
             <element signature="e#207357#207358#0" expanded="true" />
-            <marker date="1533419220579" expanded="false" signature="214548:214553" ph=" { " />
-            <marker date="1533419220579" expanded="false" signature="214608:214611" ph=" }" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/net/sourceforge/zmanim/AstronomicalCalendar.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="509">
-          <caret line="561" column="69" lean-forward="false" selection-start-line="561" selection-start-column="69" selection-end-line="561" selection-end-column="69" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#19802#19803#0" expanded="true" />
-            <element signature="e#19841#19842#0" expanded="true" />
-            <element signature="e#25037#25038#0" expanded="true" />
-            <element signature="e#25118#25119#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/net/sourceforge/zmanim/util/DateConverter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="19" column="80" lean-forward="false" selection-start-line="19" selection-start-column="80" selection-end-line="19" selection-end-column="80" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/net/sourceforge/zmanim/hebrewcalendar/JewishCalendar.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="9690">
+          <caret line="646" column="49" lean-forward="false" selection-start-line="646" selection-start-column="49" selection-end-line="646" selection-end-column="49" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/net/sourceforge/zmanim/ZmanimCalendar.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4425">
+          <caret line="329" column="25" lean-forward="false" selection-start-line="329" selection-start-column="25" selection-end-line="329" selection-end-column="25" />
+          <folding>
+            <element signature="e#18020#18021#0" expanded="true" />
+            <element signature="e#18075#18076#0" expanded="true" />
+            <element signature="e#19350#19351#0" expanded="true" />
+            <element signature="e#19405#19406#0" expanded="true" />
+            <element signature="e#20384#20385#0" expanded="true" />
+            <element signature="e#20444#20445#0" expanded="true" />
+            <element signature="e#24660#24661#0" expanded="true" />
+            <element signature="e#24716#24717#0" expanded="true" />
+            <element signature="e#25865#25866#0" expanded="true" />
+            <element signature="e#25921#25922#0" expanded="true" />
+            <element signature="e#29479#29480#0" expanded="true" />
+            <element signature="e#29535#29536#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/net/sourceforge/zmanim/ComplexZmanimCalendar.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" column="3" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="24" selection-end-column="76" />
+          <folding>
+            <element signature="e#22132#22133#0" expanded="true" />
+            <element signature="e#22154#22155#0" expanded="true" />
+            <element signature="e#22462#22463#0" expanded="true" />
+            <element signature="e#22476#22477#0" expanded="true" />
+            <element signature="e#24770#24771#0" expanded="true" />
+            <element signature="e#24840#24841#0" expanded="true" />
+            <element signature="e#26000#26001#0" expanded="true" />
+            <element signature="e#26070#26071#0" expanded="true" />
+            <element signature="e#28527#28528#0" expanded="true" />
+            <element signature="e#28583#28584#0" expanded="true" />
+            <element signature="e#29650#29651#0" expanded="true" />
+            <element signature="e#29683#29684#0" expanded="true" />
+            <element signature="e#30967#30968#0" expanded="true" />
+            <element signature="e#31035#31036#0" expanded="true" />
+            <element signature="e#31976#31977#0" expanded="true" />
+            <element signature="e#32032#32033#0" expanded="true" />
+            <element signature="e#33315#33316#0" expanded="true" />
+            <element signature="e#33383#33384#0" expanded="true" />
+            <element signature="e#34668#34669#0" expanded="true" />
+            <element signature="e#34736#34737#0" expanded="true" />
+            <element signature="e#36142#36143#0" expanded="true" />
+            <element signature="e#36213#36214#0" expanded="true" />
+            <element signature="e#37154#37155#0" expanded="true" />
+            <element signature="e#37210#37211#0" expanded="true" />
+            <element signature="e#38155#38156#0" expanded="true" />
+            <element signature="e#38213#38214#0" expanded="true" />
+            <element signature="e#39507#39508#0" expanded="true" />
+            <element signature="e#39577#39578#0" expanded="true" />
+            <element signature="e#41351#41352#0" expanded="true" />
+            <element signature="e#41409#41410#0" expanded="true" />
+            <element signature="e#43969#43970#0" expanded="true" />
+            <element signature="e#44031#44032#0" expanded="true" />
+            <element signature="e#46571#46572#0" expanded="true" />
+            <element signature="e#46633#46634#0" expanded="true" />
+            <element signature="e#50366#50367#0" expanded="true" />
+            <element signature="e#50428#50429#0" expanded="true" />
+            <element signature="e#51509#51510#0" expanded="true" />
+            <element signature="e#51572#51573#0" expanded="true" />
+            <element signature="e#54001#54002#0" expanded="true" />
+            <element signature="e#54059#54060#0" expanded="true" />
+            <element signature="e#54740#54741#0" expanded="true" />
+            <element signature="e#54800#54801#0" expanded="true" />
+            <element signature="e#56037#56038#0" expanded="true" />
+            <element signature="e#56095#56096#0" expanded="true" />
+            <element signature="e#57152#57153#0" expanded="true" />
+            <element signature="e#57210#57211#0" expanded="true" />
+            <element signature="e#58268#58269#0" expanded="true" />
+            <element signature="e#58326#58327#0" expanded="true" />
+            <element signature="e#59349#59350#0" expanded="true" />
+            <element signature="e#59407#59408#0" expanded="true" />
+            <element signature="e#60374#60375#0" expanded="true" />
+            <element signature="e#60432#60433#0" expanded="true" />
+            <element signature="e#61455#61456#0" expanded="true" />
+            <element signature="e#61513#61514#0" expanded="true" />
+            <element signature="e#63947#63948#0" expanded="true" />
+            <element signature="e#64005#64006#0" expanded="true" />
+            <element signature="e#66102#66103#0" expanded="true" />
+            <element signature="e#66159#66160#0" expanded="true" />
+            <element signature="e#70310#70311#0" expanded="true" />
+            <element signature="e#70379#70380#0" expanded="true" />
+            <element signature="e#71778#71779#0" expanded="true" />
+            <element signature="e#71811#71812#0" expanded="true" />
+            <element signature="e#74655#74656#0" expanded="true" />
+            <element signature="e#74710#74711#0" expanded="true" />
+            <element signature="e#77423#77424#0" expanded="true" />
+            <element signature="e#77478#77479#0" expanded="true" />
+            <element signature="e#79902#79903#0" expanded="true" />
+            <element signature="e#79965#79966#0" expanded="true" />
+            <element signature="e#81264#81265#0" expanded="true" />
+            <element signature="e#81321#81322#0" expanded="true" />
+            <element signature="e#89974#89975#0" expanded="true" />
+            <element signature="e#90044#90045#0" expanded="true" />
+            <element signature="e#91432#91433#0" expanded="true" />
+            <element signature="e#91466#91467#0" expanded="true" />
+            <element signature="e#94151#94152#0" expanded="true" />
+            <element signature="e#94207#94208#0" expanded="true" />
+            <element signature="e#96892#96893#0" expanded="true" />
+            <element signature="e#96948#96949#0" expanded="true" />
+            <element signature="e#99653#99654#0" expanded="true" />
+            <element signature="e#99711#99712#0" expanded="true" />
+            <element signature="e#100626#100627#0" expanded="true" />
+            <element signature="e#100689#100690#0" expanded="true" />
+            <element signature="e#102024#102025#0" expanded="true" />
+            <element signature="e#102085#102086#0" expanded="true" />
+            <element signature="e#103166#103167#0" expanded="true" />
+            <element signature="e#103222#103223#0" expanded="true" />
+            <element signature="e#108045#108046#0" expanded="true" />
+            <element signature="e#108101#108102#0" expanded="true" />
+            <element signature="e#108942#108943#0" expanded="true" />
+            <element signature="e#108998#108999#0" expanded="true" />
+            <element signature="e#109839#109840#0" expanded="true" />
+            <element signature="e#109895#109896#0" expanded="true" />
+            <element signature="e#110736#110737#0" expanded="true" />
+            <element signature="e#110792#110793#0" expanded="true" />
+            <element signature="e#111628#111629#0" expanded="true" />
+            <element signature="e#111684#111685#0" expanded="true" />
+            <element signature="e#117166#117167#0" expanded="true" />
+            <element signature="e#117236#117237#0" expanded="true" />
+            <element signature="e#118204#118205#0" expanded="true" />
+            <element signature="e#118274#118275#0" expanded="true" />
+            <element signature="e#119567#119568#0" expanded="true" />
+            <element signature="e#119635#119636#0" expanded="true" />
+            <element signature="e#122937#122938#0" expanded="true" />
+            <element signature="e#122995#122996#0" expanded="true" />
+            <element signature="e#123760#123761#0" expanded="true" />
+            <element signature="e#123822#123823#0" expanded="true" />
+            <element signature="e#126422#126423#0" expanded="true" />
+            <element signature="e#126478#126479#0" expanded="true" />
+            <element signature="e#126875#126876#0" expanded="true" />
+            <element signature="e#126931#126932#0" expanded="true" />
+            <element signature="e#127699#127700#0" expanded="true" />
+            <element signature="e#127756#127757#0" expanded="true" />
+            <element signature="e#128775#128776#0" expanded="true" />
+            <element signature="e#128832#128833#0" expanded="true" />
+            <element signature="e#129918#129919#0" expanded="true" />
+            <element signature="e#129976#129977#0" expanded="true" />
+            <element signature="e#130992#130993#0" expanded="true" />
+            <element signature="e#131049#131050#0" expanded="true" />
+            <element signature="e#132072#132073#0" expanded="true" />
+            <element signature="e#132129#132130#0" expanded="true" />
+            <element signature="e#133277#133278#0" expanded="true" />
+            <element signature="e#133334#133335#0" expanded="true" />
+            <element signature="e#134410#134411#0" expanded="true" />
+            <element signature="e#134466#134467#0" expanded="true" />
+            <element signature="e#135607#135608#0" expanded="true" />
+            <element signature="e#135664#135665#0" expanded="true" />
+            <element signature="e#136655#136656#0" expanded="true" />
+            <element signature="e#136713#136714#0" expanded="true" />
+            <element signature="e#138953#138954#0" expanded="true" />
+            <element signature="e#139010#139011#0" expanded="true" />
+            <element signature="e#139773#139774#0" expanded="true" />
+            <element signature="e#139829#139830#0" expanded="true" />
+            <element signature="e#140677#140678#0" expanded="true" />
+            <element signature="e#140733#140734#0" expanded="true" />
+            <element signature="e#141929#141930#0" expanded="true" />
+            <element signature="e#141986#141987#0" expanded="true" />
+            <element signature="e#142821#142822#0" expanded="true" />
+            <element signature="e#142881#142882#0" expanded="true" />
+            <element signature="e#144715#144716#0" expanded="true" />
+            <element signature="e#144752#144753#0" expanded="true" />
+            <element signature="e#146947#146948#0" expanded="true" />
+            <element signature="e#147017#147018#0" expanded="true" />
+            <element signature="e#150178#150179#0" expanded="true" />
+            <element signature="e#150249#150250#0" expanded="true" />
+            <element signature="e#151868#151869#0" expanded="true" />
+            <element signature="e#151939#151940#0" expanded="true" />
+            <element signature="e#153205#153206#0" expanded="true" />
+            <element signature="e#153276#153277#0" expanded="true" />
+            <element signature="e#158220#158221#0" expanded="true" />
+            <element signature="e#158280#158281#0" expanded="true" />
+            <element signature="e#159306#159307#0" expanded="true" />
+            <element signature="e#159367#159368#0" expanded="true" />
+            <element signature="e#160805#160806#0" expanded="true" />
+            <element signature="e#160862#160863#0" expanded="true" />
+            <element signature="e#161492#161493#0" expanded="true" />
+            <element signature="e#161549#161550#0" expanded="true" />
+            <element signature="e#162155#162156#0" expanded="true" />
+            <element signature="e#162214#162215#0" expanded="true" />
+            <element signature="e#162861#162862#0" expanded="true" />
+            <element signature="e#162918#162919#0" expanded="true" />
+            <element signature="e#163541#163542#0" expanded="true" />
+            <element signature="e#163601#163602#0" expanded="true" />
+            <element signature="e#165155#165156#0" expanded="true" />
+            <element signature="e#165228#165229#0" expanded="true" />
+            <element signature="e#171700#171701#0" expanded="true" />
+            <element signature="e#171762#171763#0" expanded="true" />
+            <element signature="e#176554#176555#0" expanded="true" />
+            <element signature="e#176608#176609#0" expanded="true" />
+            <element signature="e#177476#177477#0" expanded="true" />
+            <element signature="e#177533#177534#0" expanded="true" />
+            <element signature="e#187109#187110#0" expanded="true" />
+            <element signature="e#187166#187167#0" expanded="true" />
+            <element signature="e#188387#188388#0" expanded="true" />
+            <element signature="e#188421#188422#0" expanded="true" />
+            <element signature="e#189807#189808#0" expanded="true" />
+            <element signature="e#189850#189851#0" expanded="true" />
+            <element signature="e#191235#191236#0" expanded="true" />
+            <element signature="e#191284#191285#0" expanded="true" />
+            <element signature="e#192271#192272#0" expanded="true" />
+            <element signature="e#192337#192338#0" expanded="true" />
+            <element signature="e#198760#198761#0" expanded="true" />
+            <element signature="e#198819#198820#0" expanded="true" />
+            <element signature="e#200652#200653#0" expanded="true" />
+            <element signature="e#200710#200711#0" expanded="true" />
+            <element signature="e#203126#203127#0" expanded="true" />
+            <element signature="e#203204#203205#0" expanded="true" />
+            <element signature="e#204066#204067#0" expanded="true" />
+            <element signature="e#204124#204125#0" expanded="true" />
+            <element signature="e#207315#207316#0" expanded="true" />
+            <element signature="e#207357#207358#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/net/sourceforge/zmanim/AstronomicalCalendar.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/net/sourceforge/zmanim/ZmanimCalendar.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4005">
+          <caret line="267" column="7" lean-forward="false" selection-start-line="267" selection-start-column="7" selection-end-line="267" selection-end-column="7" />
+          <folding>
+            <element signature="e#18020#18021#0" expanded="true" />
+            <element signature="e#18075#18076#0" expanded="true" />
+            <element signature="e#19350#19351#0" expanded="true" />
+            <element signature="e#19405#19406#0" expanded="true" />
+            <element signature="e#20384#20385#0" expanded="true" />
+            <element signature="e#20444#20445#0" expanded="true" />
+            <element signature="e#24660#24661#0" expanded="true" />
+            <element signature="e#24716#24717#0" expanded="true" />
+            <element signature="e#25865#25866#0" expanded="true" />
+            <element signature="e#25921#25922#0" expanded="true" />
+            <element signature="e#29479#29480#0" expanded="true" />
+            <element signature="e#29535#29536#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/net/sourceforge/zmanim/AstronomicalCalendar.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/net/sourceforge/zmanim/ZmanimCalendar.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3990">
+          <caret line="266" column="7" lean-forward="true" selection-start-line="266" selection-start-column="7" selection-end-line="266" selection-end-column="7" />
+          <folding>
+            <element signature="e#18020#18021#0" expanded="true" />
+            <element signature="e#18075#18076#0" expanded="true" />
+            <element signature="e#19350#19351#0" expanded="true" />
+            <element signature="e#19405#19406#0" expanded="true" />
+            <element signature="e#20384#20385#0" expanded="true" />
+            <element signature="e#20444#20445#0" expanded="true" />
+            <element signature="e#24660#24661#0" expanded="true" />
+            <element signature="e#24716#24717#0" expanded="true" />
+            <element signature="e#25865#25866#0" expanded="true" />
+            <element signature="e#25921#25922#0" expanded="true" />
+            <element signature="e#29479#29480#0" expanded="true" />
+            <element signature="e#29535#29536#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/src.zip!/java/time/LocalDateTime.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="134" column="19" lean-forward="false" selection-start-line="134" selection-start-column="19" selection-end-line="134" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/net/sourceforge/zmanim/hebrewcalendar/UT_YerushalmiTest.java" />
+    <entry file="file://$PROJECT_DIR$/test/net/sourceforge/zmanim/hebrewcalendar/UT_JewishLeapYear.java" />
+    <entry file="file://$PROJECT_DIR$/test/net/sourceforge/zmanim/hebrewcalendar/UT_JewishDateNavigation.java" />
+    <entry file="file://$PROJECT_DIR$/test/net/sourceforge/zmanim/hebrewcalendar/UT_GregorianDateNavigation.java" />
+    <entry file="file://$PROJECT_DIR$/src/net/sourceforge/zmanim/AstronomicalCalendar.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1242">
+          <caret line="602" column="123" lean-forward="false" selection-start-line="602" selection-start-column="123" selection-end-line="602" selection-end-column="123" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/net/sourceforge/zmanim/util/DateConverter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="19" column="80" lean-forward="false" selection-start-line="19" selection-start-column="80" selection-end-line="19" selection-end-column="80" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/net/sourceforge/zmanim/ZmanimCalendar.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4425">
+          <caret line="329" column="25" lean-forward="false" selection-start-line="329" selection-start-column="25" selection-end-line="329" selection-end-column="25" />
+          <folding>
+            <element signature="e#18020#18021#0" expanded="true" />
+            <element signature="e#18075#18076#0" expanded="true" />
+            <element signature="e#19350#19351#0" expanded="true" />
+            <element signature="e#19405#19406#0" expanded="true" />
+            <element signature="e#20384#20385#0" expanded="true" />
+            <element signature="e#20444#20445#0" expanded="true" />
+            <element signature="e#24660#24661#0" expanded="true" />
+            <element signature="e#24716#24717#0" expanded="true" />
+            <element signature="e#25865#25866#0" expanded="true" />
+            <element signature="e#25921#25922#0" expanded="true" />
+            <element signature="e#29479#29480#0" expanded="true" />
+            <element signature="e#29535#29536#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/net/sourceforge/zmanim/hebrewcalendar/JewishCalendar.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="9090">
+          <caret line="646" column="49" lean-forward="false" selection-start-line="646" selection-start-column="49" selection-end-line="646" selection-end-column="49" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/net/sourceforge/zmanim/ComplexZmanimCalendar.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="23" column="3" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="24" selection-end-column="76" />
+          <folding>
+            <element signature="e#22132#22133#0" expanded="true" />
+            <element signature="e#22154#22155#0" expanded="true" />
+            <element signature="e#22462#22463#0" expanded="true" />
+            <element signature="e#22476#22477#0" expanded="true" />
+            <element signature="e#24770#24771#0" expanded="true" />
+            <element signature="e#24840#24841#0" expanded="true" />
+            <element signature="e#26000#26001#0" expanded="true" />
+            <element signature="e#26070#26071#0" expanded="true" />
+            <element signature="e#28527#28528#0" expanded="true" />
+            <element signature="e#28583#28584#0" expanded="true" />
+            <element signature="e#29650#29651#0" expanded="true" />
+            <element signature="e#29683#29684#0" expanded="true" />
+            <element signature="e#30967#30968#0" expanded="true" />
+            <element signature="e#31035#31036#0" expanded="true" />
+            <element signature="e#31976#31977#0" expanded="true" />
+            <element signature="e#32032#32033#0" expanded="true" />
+            <element signature="e#33315#33316#0" expanded="true" />
+            <element signature="e#33383#33384#0" expanded="true" />
+            <element signature="e#34668#34669#0" expanded="true" />
+            <element signature="e#34736#34737#0" expanded="true" />
+            <element signature="e#36142#36143#0" expanded="true" />
+            <element signature="e#36213#36214#0" expanded="true" />
+            <element signature="e#37154#37155#0" expanded="true" />
+            <element signature="e#37210#37211#0" expanded="true" />
+            <element signature="e#38155#38156#0" expanded="true" />
+            <element signature="e#38213#38214#0" expanded="true" />
+            <element signature="e#39507#39508#0" expanded="true" />
+            <element signature="e#39577#39578#0" expanded="true" />
+            <element signature="e#41351#41352#0" expanded="true" />
+            <element signature="e#41409#41410#0" expanded="true" />
+            <element signature="e#43969#43970#0" expanded="true" />
+            <element signature="e#44031#44032#0" expanded="true" />
+            <element signature="e#46571#46572#0" expanded="true" />
+            <element signature="e#46633#46634#0" expanded="true" />
+            <element signature="e#50366#50367#0" expanded="true" />
+            <element signature="e#50428#50429#0" expanded="true" />
+            <element signature="e#51509#51510#0" expanded="true" />
+            <element signature="e#51572#51573#0" expanded="true" />
+            <element signature="e#54001#54002#0" expanded="true" />
+            <element signature="e#54059#54060#0" expanded="true" />
+            <element signature="e#54740#54741#0" expanded="true" />
+            <element signature="e#54800#54801#0" expanded="true" />
+            <element signature="e#56037#56038#0" expanded="true" />
+            <element signature="e#56095#56096#0" expanded="true" />
+            <element signature="e#57152#57153#0" expanded="true" />
+            <element signature="e#57210#57211#0" expanded="true" />
+            <element signature="e#58268#58269#0" expanded="true" />
+            <element signature="e#58326#58327#0" expanded="true" />
+            <element signature="e#59349#59350#0" expanded="true" />
+            <element signature="e#59407#59408#0" expanded="true" />
+            <element signature="e#60374#60375#0" expanded="true" />
+            <element signature="e#60432#60433#0" expanded="true" />
+            <element signature="e#61455#61456#0" expanded="true" />
+            <element signature="e#61513#61514#0" expanded="true" />
+            <element signature="e#63947#63948#0" expanded="true" />
+            <element signature="e#64005#64006#0" expanded="true" />
+            <element signature="e#66102#66103#0" expanded="true" />
+            <element signature="e#66159#66160#0" expanded="true" />
+            <element signature="e#70310#70311#0" expanded="true" />
+            <element signature="e#70379#70380#0" expanded="true" />
+            <element signature="e#71778#71779#0" expanded="true" />
+            <element signature="e#71811#71812#0" expanded="true" />
+            <element signature="e#74655#74656#0" expanded="true" />
+            <element signature="e#74710#74711#0" expanded="true" />
+            <element signature="e#77423#77424#0" expanded="true" />
+            <element signature="e#77478#77479#0" expanded="true" />
+            <element signature="e#79902#79903#0" expanded="true" />
+            <element signature="e#79965#79966#0" expanded="true" />
+            <element signature="e#81264#81265#0" expanded="true" />
+            <element signature="e#81321#81322#0" expanded="true" />
+            <element signature="e#89974#89975#0" expanded="true" />
+            <element signature="e#90044#90045#0" expanded="true" />
+            <element signature="e#91432#91433#0" expanded="true" />
+            <element signature="e#91466#91467#0" expanded="true" />
+            <element signature="e#94151#94152#0" expanded="true" />
+            <element signature="e#94207#94208#0" expanded="true" />
+            <element signature="e#96892#96893#0" expanded="true" />
+            <element signature="e#96948#96949#0" expanded="true" />
+            <element signature="e#99653#99654#0" expanded="true" />
+            <element signature="e#99711#99712#0" expanded="true" />
+            <element signature="e#100626#100627#0" expanded="true" />
+            <element signature="e#100689#100690#0" expanded="true" />
+            <element signature="e#102024#102025#0" expanded="true" />
+            <element signature="e#102085#102086#0" expanded="true" />
+            <element signature="e#103166#103167#0" expanded="true" />
+            <element signature="e#103222#103223#0" expanded="true" />
+            <element signature="e#108045#108046#0" expanded="true" />
+            <element signature="e#108101#108102#0" expanded="true" />
+            <element signature="e#108942#108943#0" expanded="true" />
+            <element signature="e#108998#108999#0" expanded="true" />
+            <element signature="e#109839#109840#0" expanded="true" />
+            <element signature="e#109895#109896#0" expanded="true" />
+            <element signature="e#110736#110737#0" expanded="true" />
+            <element signature="e#110792#110793#0" expanded="true" />
+            <element signature="e#111628#111629#0" expanded="true" />
+            <element signature="e#111684#111685#0" expanded="true" />
+            <element signature="e#117166#117167#0" expanded="true" />
+            <element signature="e#117236#117237#0" expanded="true" />
+            <element signature="e#118204#118205#0" expanded="true" />
+            <element signature="e#118274#118275#0" expanded="true" />
+            <element signature="e#119567#119568#0" expanded="true" />
+            <element signature="e#119635#119636#0" expanded="true" />
+            <element signature="e#122937#122938#0" expanded="true" />
+            <element signature="e#122995#122996#0" expanded="true" />
+            <element signature="e#123760#123761#0" expanded="true" />
+            <element signature="e#123822#123823#0" expanded="true" />
+            <element signature="e#126422#126423#0" expanded="true" />
+            <element signature="e#126478#126479#0" expanded="true" />
+            <element signature="e#126875#126876#0" expanded="true" />
+            <element signature="e#126931#126932#0" expanded="true" />
+            <element signature="e#127699#127700#0" expanded="true" />
+            <element signature="e#127756#127757#0" expanded="true" />
+            <element signature="e#128775#128776#0" expanded="true" />
+            <element signature="e#128832#128833#0" expanded="true" />
+            <element signature="e#129918#129919#0" expanded="true" />
+            <element signature="e#129976#129977#0" expanded="true" />
+            <element signature="e#130992#130993#0" expanded="true" />
+            <element signature="e#131049#131050#0" expanded="true" />
+            <element signature="e#132072#132073#0" expanded="true" />
+            <element signature="e#132129#132130#0" expanded="true" />
+            <element signature="e#133277#133278#0" expanded="true" />
+            <element signature="e#133334#133335#0" expanded="true" />
+            <element signature="e#134410#134411#0" expanded="true" />
+            <element signature="e#134466#134467#0" expanded="true" />
+            <element signature="e#135607#135608#0" expanded="true" />
+            <element signature="e#135664#135665#0" expanded="true" />
+            <element signature="e#136655#136656#0" expanded="true" />
+            <element signature="e#136713#136714#0" expanded="true" />
+            <element signature="e#138953#138954#0" expanded="true" />
+            <element signature="e#139010#139011#0" expanded="true" />
+            <element signature="e#139773#139774#0" expanded="true" />
+            <element signature="e#139829#139830#0" expanded="true" />
+            <element signature="e#140677#140678#0" expanded="true" />
+            <element signature="e#140733#140734#0" expanded="true" />
+            <element signature="e#141929#141930#0" expanded="true" />
+            <element signature="e#141986#141987#0" expanded="true" />
+            <element signature="e#142821#142822#0" expanded="true" />
+            <element signature="e#142881#142882#0" expanded="true" />
+            <element signature="e#144715#144716#0" expanded="true" />
+            <element signature="e#144752#144753#0" expanded="true" />
+            <element signature="e#146947#146948#0" expanded="true" />
+            <element signature="e#147017#147018#0" expanded="true" />
+            <element signature="e#150178#150179#0" expanded="true" />
+            <element signature="e#150249#150250#0" expanded="true" />
+            <element signature="e#151868#151869#0" expanded="true" />
+            <element signature="e#151939#151940#0" expanded="true" />
+            <element signature="e#153205#153206#0" expanded="true" />
+            <element signature="e#153276#153277#0" expanded="true" />
+            <element signature="e#158220#158221#0" expanded="true" />
+            <element signature="e#158280#158281#0" expanded="true" />
+            <element signature="e#159306#159307#0" expanded="true" />
+            <element signature="e#159367#159368#0" expanded="true" />
+            <element signature="e#160805#160806#0" expanded="true" />
+            <element signature="e#160862#160863#0" expanded="true" />
+            <element signature="e#161492#161493#0" expanded="true" />
+            <element signature="e#161549#161550#0" expanded="true" />
+            <element signature="e#162155#162156#0" expanded="true" />
+            <element signature="e#162214#162215#0" expanded="true" />
+            <element signature="e#162861#162862#0" expanded="true" />
+            <element signature="e#162918#162919#0" expanded="true" />
+            <element signature="e#163541#163542#0" expanded="true" />
+            <element signature="e#163601#163602#0" expanded="true" />
+            <element signature="e#165155#165156#0" expanded="true" />
+            <element signature="e#165228#165229#0" expanded="true" />
+            <element signature="e#171700#171701#0" expanded="true" />
+            <element signature="e#171762#171763#0" expanded="true" />
+            <element signature="e#176554#176555#0" expanded="true" />
+            <element signature="e#176608#176609#0" expanded="true" />
+            <element signature="e#177476#177477#0" expanded="true" />
+            <element signature="e#177533#177534#0" expanded="true" />
+            <element signature="e#187109#187110#0" expanded="true" />
+            <element signature="e#187166#187167#0" expanded="true" />
+            <element signature="e#188387#188388#0" expanded="true" />
+            <element signature="e#188421#188422#0" expanded="true" />
+            <element signature="e#189807#189808#0" expanded="true" />
+            <element signature="e#189850#189851#0" expanded="true" />
+            <element signature="e#191235#191236#0" expanded="true" />
+            <element signature="e#191284#191285#0" expanded="true" />
+            <element signature="e#192271#192272#0" expanded="true" />
+            <element signature="e#192337#192338#0" expanded="true" />
+            <element signature="e#198760#198761#0" expanded="true" />
+            <element signature="e#198819#198820#0" expanded="true" />
+            <element signature="e#200652#200653#0" expanded="true" />
+            <element signature="e#200710#200711#0" expanded="true" />
+            <element signature="e#203126#203127#0" expanded="true" />
+            <element signature="e#203204#203205#0" expanded="true" />
+            <element signature="e#204066#204067#0" expanded="true" />
+            <element signature="e#204124#204125#0" expanded="true" />
+            <element signature="e#207315#207316#0" expanded="true" />
+            <element signature="e#207357#207358#0" expanded="true" />
           </folding>
         </state>
       </provider>

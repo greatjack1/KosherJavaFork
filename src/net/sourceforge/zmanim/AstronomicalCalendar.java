@@ -576,16 +576,9 @@ public class AstronomicalCalendar implements Cloneable {
     public double getSunriseSolarDipFromOffset(double minutes) {
         LocalDateTime offsetByDegrees = getSeaLevelSunrise();
         LocalDateTime offsetByTime = getTimeOffset(getSeaLevelSunrise(), -(minutes * MINUTE_MILLIS));
-        Date degreesOffset = java.util.Date
-                .from(offsetByDegrees.atZone(ZoneId.systemDefault())
-                        .toInstant());
-        Date timeOffset = java.util.Date
-                .from(offsetByTime.atZone(ZoneId.systemDefault())
-                        .toInstant());
-
         BigDecimal degrees = new BigDecimal(0);
         BigDecimal incrementor = new BigDecimal("0.0001");
-        while (offsetByDegrees == null || degreesOffset.getTime() > timeOffset.getTime()) {
+        while (offsetByDegrees == null || localDateTimeToDate(offsetByDegrees).getTime() > localDateTimeToDate(offsetByTime).getTime()) {
             degrees = degrees.add(incrementor);
             offsetByDegrees = getSunriseOffsetByDegrees(GEOMETRIC_ZENITH + degrees.doubleValue());
         }
@@ -605,17 +598,9 @@ public class AstronomicalCalendar implements Cloneable {
     public double getSunsetSolarDipFromOffset(double minutes) {
         LocalDateTime offsetByDegrees = getSeaLevelSunset();
         LocalDateTime offsetByTime = getTimeOffset(getSeaLevelSunset(), minutes * MINUTE_MILLIS);
-
         BigDecimal degrees = new BigDecimal(0);
         BigDecimal incrementor = new BigDecimal("0.001");
-        Date degreeOffset = java.util.Date
-                .from(offsetByDegrees.atZone(ZoneId.systemDefault())
-                        .toInstant());
-        Date timeOffset = java.util.Date
-                .from(offsetByTime.atZone(ZoneId.systemDefault())
-                        .toInstant());
-
-        while (offsetByDegrees == null || degreeOffset.getTime() < timeOffset.getTime()) {
+        while (offsetByDegrees == null || localDateTimeToDate(offsetByDegrees).getTime() < localDateTimeToDate(offsetByTime).getTime()) {
             degrees = degrees.add(incrementor);
             offsetByDegrees = getSunsetOffsetByDegrees(GEOMETRIC_ZENITH + degrees.doubleValue());
         }
